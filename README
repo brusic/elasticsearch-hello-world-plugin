@@ -1,0 +1,9 @@
+Installation instructions. Maven and elasticsearch are required.
+
+$ git clone git@github.com:brusic/elasticsearch-hello-world-plugin.git
+
+$ cd elasticsearch-hello-world-plugin
+
+$ mvn package
+
+$ $ES_HOME/bin/plugin -url ./target -install hello-world
